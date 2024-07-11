@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{653EBFB4-942F-4872-A66E-EF740987EA1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{C0BF5EFB-3C83-402C-A71B-AF983C96BA1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requriments", "Requriments", "{9B3B067B-53A0-4B27-ADAD-44D5D7692F57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{70E4E571-BB1C-43FF-B0C0-E2446BCEEDB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{336D6451-0659-43CC-A98A-91D761144C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeAway.Catalog", "Services\Catalog\TakeAway.Catalog\TakeAway.Catalog.csproj", "{B8999E01-136B-404A-9500-D1C39B34F8E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8999E01-136B-404A-9500-D1C39B34F8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8999E01-136B-404A-9500-D1C39B34F8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8999E01-136B-404A-9500-D1C39B34F8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8999E01-136B-404A-9500-D1C39B34F8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{336D6451-0659-43CC-A98A-91D761144C86} = {70E4E571-BB1C-43FF-B0C0-E2446BCEEDB4}
+		{B8999E01-136B-404A-9500-D1C39B34F8E4} = {336D6451-0659-43CC-A98A-91D761144C86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69BAC0C3-462B-4FBE-B5AD-3433682CAD1D}
+	EndGlobalSection
+EndGlobal
